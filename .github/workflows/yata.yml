@@ -27,7 +27,7 @@ jobs:
           echo "Sleeping for $delay seconds..."
           sleep $delay
 
-       - name: Select random API key
+      - name: Select random API key
         run: |
           keys=("$TORN_KEY_1" "$TORN_KEY_2" "$TORN_KEY_3" "$TORN_KEY_4")
           index=$(( RANDOM % ${#keys[@]} ))
@@ -38,15 +38,10 @@ jobs:
           TORN_KEY_3: ${{ secrets.TORN_KEY_3 }}
           TORN_KEY_4: ${{ secrets.TORN_KEY_4 }}
 
-        - name: Run collector
+      - name: Run collector
         run: node fetch.js
         env:
-          TORN_KEY_1: ${{ secrets.TORN_KEY_1 }}
-          TORN_KEY_2: ${{ secrets.TORN_KEY_2 }}
-          TORN_KEY_3: ${{ secrets.TORN_KEY_3 }}
-          TORN_KEY_4: ${{ secrets.TORN_KEY_4 }}
           TORN_KEY: ${{ env.SELECTED_KEY }}
-
 
       - name: Commit changes
         run: |
