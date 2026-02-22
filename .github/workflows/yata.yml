@@ -23,6 +23,9 @@ jobs:
 
       - name: Run collector
         run: node fetch.js
+        env:
+          TORN_KEY: ${{ secrets.TORN_KEY }}
+
 
       - name: Commit changes
         run: |
