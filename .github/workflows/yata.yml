@@ -20,3 +20,14 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
+      - name: Run collector
+        run: node fetch.js
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add data.json
+          git commit -m "Update YATA data" || echo "No changes"
+          git push
