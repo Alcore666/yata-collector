@@ -22,17 +22,15 @@ jobs:
         run: npm install
 
       - name: Random delay (0–20 minutes)
-  run: |
-    delay=$(( RANDOM % 1200 ))
-    echo "Sleeping for $delay seconds..."
-    sleep $delay
+        run: |
+          delay=$(( RANDOM % 1200 ))
+          echo "Sleeping for $delay seconds..."
+          sleep $delay
 
-    - name: Run collector
-      run: node fetch.js
-       env:
-        TORN_KEY: ${{ secrets.TORN_KEY }}
-
-
+      - name: Run collector
+        run: node fetch.js
+        env:
+          TORN_KEY: ${{ secrets.TORN_KEY }}
 
       - name: Commit changes
         run: |
