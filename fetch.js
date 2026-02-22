@@ -69,7 +69,7 @@ function updateItem(country, itemName, stock, output) {
 }
 
 async function main() {
-  const yata = await getYataData();
+  const yata = (await getYataData()).stocks;
   const output = previous;
 
   // YATA format: { country: { item: { in_stock: number } } }
