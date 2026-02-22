@@ -10,10 +10,17 @@ if (fs.existsSync(DATA_FILE)) {
   previous = JSON.parse(fs.readFileSync(DATA_FILE, "utf8"));
 }
 
-// Fetch YATA foreign shop data (correct endpoint)
+// Read Torn API key from environment
+const API_KEY = process.env.TORN_KEY;
+
 async function getYataData() {
-  const url = "https://yata.yt/api/v1/travel/data/";
+  const url = `https://yata.yt/api/v1/travel/data/?key=${API_KEY}`;
   const res = await fetch(url);
+
+  if (!res.ok) {
+    throw new Error(`YATA returned HTTP ${res.status}`);
+  }
+
   return res.json();
 }
 
@@ -37,33 +44,29 @@ function updateItem(country, itemName, stock, output) {
   const item = output[country][itemName];
   const oldStock = item.stock;
 
-  // Update stock
   item.lastStock = oldStock;
   item.stock = stock;
 
   // Detect refill
   if (stock > oldStock) {
     const ts = now();
-
-    // Update lastRestock
     item.lastRestock = ts;
-
-    // Add to refill history
     item.refills.push(ts);
 
-    // Keep only last 5
+    // Keep last 5
     if (item.refills.length > 5) {
       item.refills = item.refills.slice(-5);
     }
 
     // Calculate average interval
     if (item.refills.length >= 2) {
-      let intervals = [];
+      const intervals = [];
       for (let i = 1; i < item.refills.length; i++) {
         intervals.push(item.refills[i] - item.refills[i - 1]);
       }
-      const avg = intervals.reduce((a, b) => a + b, 0) / intervals.length;
-      item.avgInterval = Math.round(avg);
+      item.avgInterval = Math.round(
+        intervals.reduce((a, b) => a + b, 0) / intervals.length
+      );
     }
   }
 }
