@@ -18,6 +18,13 @@ jobs:
         with:
           node-version: 20
 
+      # Pull BEFORE running the collector so the repo is clean
+      - name: Prepare repo
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git pull --rebase
+
       - name: Install dependencies
         run: npm install || echo "No dependencies"
 
@@ -26,11 +33,6 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-
-          git pull --rebase
-
           git add data.json
           git commit -m "Update YATA data" || echo "No changes"
           git push
