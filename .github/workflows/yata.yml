@@ -20,20 +20,3 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
-      - name: Random delay (0–20 minutes)
-        run: |
-          delay=$(( RANDOM % 1200 ))
-          echo "Sleeping for $delay seconds..."
-          sleep $delay
-
-      - name: Run collector
-        run: node fetch.js
-
-      - name: Commit changes
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add data.json
-          git commit -m "Update YATA data" || echo "No changes"
-          git push
