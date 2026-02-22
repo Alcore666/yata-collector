@@ -19,25 +19,25 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        run: npm install || echo "No dependencies"
 
       - name: Run collector
         run: node fetch.js
 
       - name: Commit changes
-  run: |
-    git config --global user.name "github-actions"
-    git config --global user.email "github-actions@github.com"
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
 
-    git pull --rebase
+          git pull --rebase
 
-    git add data.json
-    git commit -m "Update YATA data" || echo "No changes"
-    git push
-
+          git add data.json
+          git commit -m "Update YATA data" || echo "No changes"
+          git push
 
       - name: Schedule next run in 15 minutes
         run: |
+          sleep 900
           curl -X POST \
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
