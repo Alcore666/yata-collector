@@ -63,4 +63,33 @@ function updateItem(country, item, output) {
 
     // Compute average interval
     if (entry.refills.length >= 2) {
-      const
+      const intervals = [];
+      for (let i = 1; i < entry.refills.length; i++) {
+        intervals.push(entry.refills[i] - entry.refills[i - 1]);
+      }
+      entry.avgInterval = Math.round(
+        intervals.reduce((a, b) => a + b, 0) / intervals.length
+      );
+    }
+  }
+}
+
+async function main() {
+  const yata = await getYataData();
+  const output = previous;
+
+  // Loop through each country
+  for (const country of Object.keys(yata.stocks)) {
+    const items = yata.stocks[country].stocks;
+
+    // Loop through each item in the country
+    for (const item of items) {
+      updateItem(country, item, output);
+    }
+  }
+
+  // Save updated data
+  fs.writeFileSync(DATA_FILE, JSON.stringify(output, null, 2));
+}
+
+main();
