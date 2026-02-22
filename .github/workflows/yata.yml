@@ -1,9 +1,9 @@
-name: YATA Collector
+name: YATA Collector (Accurate 15m)
 
 on:
-  schedule:
-    - cron: "*/15 * * * *"
   workflow_dispatch:
+  repository_dispatch:
+    types: [trigger]
 
 jobs:
   collect:
@@ -31,3 +31,11 @@ jobs:
           git add data.json
           git commit -m "Update YATA data" || echo "No changes"
           git push
+
+      - name: Schedule next run in 15 minutes
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/${{ github.repository }}/dispatches \
+            -d '{"event_type": "trigger"}'
