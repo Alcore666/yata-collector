@@ -10,9 +10,9 @@ if (fs.existsSync(DATA_FILE)) {
   previous = JSON.parse(fs.readFileSync(DATA_FILE, "utf8"));
 }
 
-// Fetch YATA foreign stock data
+// Fetch YATA foreign shop data (correct endpoint)
 async function getYataData() {
-  const url = "https://yata.yt/api/v1/travel/export/";
+  const url = "https://yata.yt/api/v1/travel/data/";
   const res = await fetch(url);
   return res.json();
 }
@@ -69,13 +69,15 @@ function updateItem(country, itemName, stock, output) {
 }
 
 async function main() {
-  const yata = (await getYataData()).stocks;
+  const yata = await getYataData();
   const output = previous;
 
-  // YATA format: { country: { item: { in_stock: number } } }
-  for (const country of Object.keys(yata)) {
-    for (const itemName of Object.keys(yata[country])) {
-      const stock = yata[country][itemName].in_stock;
+  // Correct structure: yata.countries[country].items[item].in_stock
+  for (const country of Object.keys(yata.countries)) {
+    const items = yata.countries[country].items;
+
+    for (const itemName of Object.keys(items)) {
+      const stock = items[itemName].in_stock;
       updateItem(country, itemName, stock, output);
     }
   }
