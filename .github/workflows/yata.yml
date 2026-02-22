@@ -25,12 +25,16 @@ jobs:
         run: node fetch.js
 
       - name: Commit changes
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add data.json
-          git commit -m "Update YATA data" || echo "No changes"
-          git push
+  run: |
+    git config --global user.name "github-actions"
+    git config --global user.email "github-actions@github.com"
+
+    git pull --rebase
+
+    git add data.json
+    git commit -m "Update YATA data" || echo "No changes"
+    git push
+
 
       - name: Schedule next run in 15 minutes
         run: |
