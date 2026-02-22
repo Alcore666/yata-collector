@@ -29,6 +29,7 @@ function now() {
 function updateItem(country, item, output) {
   const name = item.name;
   const stock = item.quantity;
+  const cost = item.cost ?? null;
 
   if (!output[country]) output[country] = {};
 
@@ -39,14 +40,22 @@ function updateItem(country, item, output) {
       lastStock: stock,
       lastRestock: null,
       refills: [],
-      avgInterval: null
+      avgInterval: null,
+
+      // NEW COST FIELDS
+      cost,
+      lastCost: cost,
+      costDiff: 0
     };
     return;
   }
 
   const entry = output[country][name];
-  const oldStock = entry.stock;
 
+  //
+  // STOCK LOGIC
+  //
+  const oldStock = entry.stock;
   entry.lastStock = oldStock;
   entry.stock = stock;
 
@@ -72,6 +81,16 @@ function updateItem(country, item, output) {
       );
     }
   }
+
+  //
+  // ⭐ COST LOGIC ⭐
+  //
+  const oldCost = entry.cost;
+  entry.lastCost = oldCost;
+  entry.cost = cost;
+
+  // costDiff = newCost - oldCost
+  entry.costDiff = cost - oldCost;
 }
 
 async function main() {
