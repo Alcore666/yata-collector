@@ -9,6 +9,26 @@ if (fs.existsSync(DATA_FILE)) {
   previous = JSON.parse(fs.readFileSync(DATA_FILE, "utf8"));
 }
 
+// Time helpers
+function now() {
+  return Math.floor(Date.now() / 1000);
+}
+
+function humanTime(seconds) {
+  const d = Math.floor(seconds / 86400);
+  seconds %= 86400;
+  const h = Math.floor(seconds / 3600);
+  seconds %= 3600;
+  const m = Math.floor(seconds / 60);
+
+  const parts = [];
+  if (d > 0) parts.push(`${d}d`);
+  if (h > 0) parts.push(`${h}h`);
+  if (m > 0) parts.push(`${m}m`);
+
+  return parts.length ? parts.join(" ") : "0m";
+}
+
 // Fetch YATA export (public endpoint)
 async function getYataData() {
   const url = "https://yata.yt/api/v1/travel/export/";
@@ -19,10 +39,6 @@ async function getYataData() {
   }
 
   return res.json();
-}
-
-function now() {
-  return Math.floor(Date.now() / 1000);
 }
 
 // Update tracking for a single item
@@ -42,7 +58,7 @@ function updateItem(country, item, output) {
       refills: [],
       avgInterval: null,
 
-      // NEW COST FIELDS
+      // Cost tracking
       cost,
       lastCost: cost,
       costDiff: 0
@@ -83,7 +99,7 @@ function updateItem(country, item, output) {
   }
 
   //
-  // ⭐ COST LOGIC ⭐
+  // COST LOGIC
   //
   const oldCost = entry.cost;
   entry.lastCost = oldCost;
@@ -93,9 +109,32 @@ function updateItem(country, item, output) {
   entry.costDiff = cost - oldCost;
 }
 
+//
+// ⭐ MAIN FUNCTION ⭐
+//
 async function main() {
   const yata = await getYataData();
   const output = previous;
+
+  // ⭐ META TRACKING ⭐
+  if (!output.__meta) {
+    output.__meta = {
+      started: now(),
+      checks: 0,
+      lastCheck: null,
+      humanRuntime: "0m"
+    };
+  }
+
+  // Increment check counter
+  output.__meta.checks++;
+
+  // Update last successful check timestamp
+  output.__meta.lastCheck = now();
+
+  // Update human-readable runtime
+  const runtimeSeconds = output.__meta.lastCheck - output.__meta.started;
+  output.__meta.humanRuntime = humanTime(runtimeSeconds);
 
   // Loop through each country
   for (const country of Object.keys(yata.stocks)) {
