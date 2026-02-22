@@ -116,14 +116,16 @@ async function main() {
   const yata = await getYataData();
   const output = previous;
 
+  // --- HEARTBEAT: collector is alive ---
+  if (!output.__meta) output.__meta = {};
+  output.__meta.lastRun = now();
+
   // ⭐ META TRACKING ⭐
-  if (!output.__meta) {
-    output.__meta = {
-      started: now(),
-      checks: 0,
-      lastCheck: null,
-      humanRuntime: "0m"
-    };
+  if (!output.__meta.started) {
+    output.__meta.started = now();
+    output.__meta.checks = 0;
+    output.__meta.lastCheck = null;
+    output.__meta.humanRuntime = "0m";
   }
 
   // Increment check counter
