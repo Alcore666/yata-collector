@@ -31,14 +31,26 @@ function humanTime(seconds) {
 // Fetch YATA export (public endpoint)
 async function getYataData() {
   const url = "https://yata.yt/api/v1/travel/export/";
-  const res = await fetch(url);
+  const RETRY_DELAY = 10 * 60 * 1000; // 10 minutes
+  const RETRY_ON = [500, 502, 503, 504];
 
-  if (!res.ok) {
-    throw new Error(`YATA returned HTTP ${res.status}`);
+  while (true) {
+    const res = await fetch(url);
+
+    if (res.ok) {
+      return res.json(); // success → return normally
+    }
+
+    // Only retry on 5xx errors
+    if (!RETRY_ON.includes(res.status)) {
+      throw new Error(`YATA returned HTTP ${res.status}`);
+    }
+
+    console.log(`YATA returned ${res.status}. Waiting 10 minutes before retry...`);
+    await new Promise(r => setTimeout(r, RETRY_DELAY));
   }
-
-  return res.json();
 }
+
 
 // Update tracking for a single item
 function updateItem(country, item, output) {
