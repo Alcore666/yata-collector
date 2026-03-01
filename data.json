@@ -1950,17 +1950,17 @@
   },
   "jap": {
     "Bottle of Sake": {
-      "stock": 0,
+      "stock": 100,
       "lastStock": 0,
-      "lastRestock": 1772364105,
+      "lastRestock": 1772376871,
       "refills": [
-        1772242843,
         1772280227,
         1772308472,
         1772332182,
-        1772364105
+        1772364105,
+        1772376871
       ],
-      "avgInterval": 30316,
+      "avgInterval": 24161,
       "cost": 39,
       "costDiff": 0,
       "lastCost": 39
@@ -2056,18 +2056,18 @@
         1772311214
       ],
       "avgInterval": 138653,
-      "cost": 29051,
-      "costDiff": 0,
+      "cost": 28974,
+      "costDiff": -77,
       "lastCost": 29051
     },
     "Opium": {
-      "stock": 84,
+      "stock": 83,
       "lastStock": 84,
       "lastRestock": null,
       "refills": [],
       "avgInterval": null,
-      "cost": 17888,
-      "costDiff": 0,
+      "cost": 17842,
+      "costDiff": -46,
       "lastCost": 17888
     },
     "Ninja Star": {
@@ -2111,7 +2111,7 @@
       "lastCost": 50000
     },
     "Ketamine": {
-      "stock": 262,
+      "stock": 258,
       "lastStock": 262,
       "lastRestock": null,
       "refills": [],
@@ -2126,8 +2126,8 @@
       "lastRestock": null,
       "refills": [],
       "avgInterval": null,
-      "cost": 4948,
-      "costDiff": 0,
+      "cost": 4928,
+      "costDiff": -20,
       "lastCost": 4948
     },
     "Sumo Doll": {
@@ -2152,8 +2152,8 @@
       "lastRestock": null,
       "refills": [],
       "avgInterval": null,
-      "cost": 1836,
-      "costDiff": 0,
+      "cost": 1835,
+      "costDiff": -1,
       "lastCost": 1836
     },
     "Metal Nunchaku": {
@@ -2190,7 +2190,7 @@
       "lastCost": 15000000
     },
     "Cherry Blossom": {
-      "stock": 9422,
+      "stock": 9211,
       "lastStock": 9422,
       "lastRestock": 1772374138,
       "refills": [
@@ -2206,19 +2206,19 @@
       "lastCost": 500
     },
     "Xanax": {
-      "stock": 0,
+      "stock": 2439,
       "lastStock": 0,
-      "lastRestock": 1772366844,
+      "lastRestock": 1772376871,
       "refills": [
-        1772317603,
         1772331269,
         1772342223,
         1772355905,
-        1772366844
+        1772366844,
+        1772376871
       ],
-      "avgInterval": 12310,
-      "cost": 698754,
-      "costDiff": 0,
+      "avgInterval": 11401,
+      "cost": 701407,
+      "costDiff": 2653,
       "lastCost": 698754
     },
     "Chopsticks": {
@@ -2272,8 +2272,8 @@
         1772285694
       ],
       "avgInterval": null,
-      "cost": 893,
-      "costDiff": 0,
+      "cost": 895,
+      "costDiff": 2,
       "lastCost": 893
     },
     "Bonded Latex": {
@@ -2303,7 +2303,7 @@
       "lastCost": 24250
     },
     "Counterfeit Manga": {
-      "stock": 2389,
+      "stock": 2179,
       "lastStock": 2389,
       "lastRestock": 1772374138,
       "refills": [
@@ -2314,8 +2314,8 @@
         1772374138
       ],
       "avgInterval": 18693,
-      "cost": 21765,
-      "costDiff": 0,
+      "cost": 21693,
+      "costDiff": -72,
       "lastCost": 21765
     },
     "Whale Meat": {
@@ -2330,8 +2330,8 @@
         1772331269
       ],
       "avgInterval": 37732,
-      "cost": 1930,
-      "costDiff": 0,
+      "cost": 1931,
+      "costDiff": 1,
       "lastCost": 1930
     }
   },
@@ -3103,9 +3103,9 @@
   },
   "__meta": {
     "started": 1771789128,
-    "checks": 632,
-    "lastCheck": 1772375956,
-    "humanRuntime": "6d 19h",
-    "lastRun": 1772375956
+    "checks": 633,
+    "lastCheck": 1772376871,
+    "humanRuntime": "6d 19h 15m",
+    "lastRun": 1772376871
   }
 }
