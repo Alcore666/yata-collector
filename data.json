@@ -2047,7 +2047,7 @@
     },
     "Ecstasy": {
       "stock": 552,
-      "lastStock": 581,
+      "lastStock": 552,
       "lastRestock": 1772311214,
       "refills": [
         1771895255,
@@ -2057,8 +2057,8 @@
       ],
       "avgInterval": 138653,
       "cost": 29051,
-      "costDiff": -34,
-      "lastCost": 29085
+      "costDiff": 0,
+      "lastCost": 29051
     },
     "Opium": {
       "stock": 84,
@@ -2067,8 +2067,8 @@
       "refills": [],
       "avgInterval": null,
       "cost": 17888,
-      "costDiff": 3,
-      "lastCost": 17885
+      "costDiff": 0,
+      "lastCost": 17888
     },
     "Ninja Star": {
       "stock": 16,
@@ -2117,8 +2117,8 @@
       "refills": [],
       "avgInterval": null,
       "cost": 912,
-      "costDiff": 2,
-      "lastCost": 910
+      "costDiff": 0,
+      "lastCost": 912
     },
     "Speed": {
       "stock": 460,
@@ -2127,8 +2127,8 @@
       "refills": [],
       "avgInterval": null,
       "cost": 4948,
-      "costDiff": 1,
-      "lastCost": 4947
+      "costDiff": 0,
+      "lastCost": 4948
     },
     "Sumo Doll": {
       "stock": 50,
@@ -2153,8 +2153,8 @@
       "refills": [],
       "avgInterval": null,
       "cost": 1836,
-      "costDiff": -1,
-      "lastCost": 1837
+      "costDiff": 0,
+      "lastCost": 1836
     },
     "Metal Nunchaku": {
       "stock": 22,
@@ -2191,7 +2191,7 @@
     },
     "Cherry Blossom": {
       "stock": 9422,
-      "lastStock": 9444,
+      "lastStock": 9422,
       "lastRestock": 1772374138,
       "refills": [
         1772245588,
@@ -2218,8 +2218,8 @@
       ],
       "avgInterval": 12310,
       "cost": 698754,
-      "costDiff": -402,
-      "lastCost": 699156
+      "costDiff": 0,
+      "lastCost": 698754
     },
     "Chopsticks": {
       "stock": 10,
@@ -2273,8 +2273,8 @@
       ],
       "avgInterval": null,
       "cost": 893,
-      "costDiff": 1,
-      "lastCost": 892
+      "costDiff": 0,
+      "lastCost": 893
     },
     "Bonded Latex": {
       "stock": 706,
@@ -2304,7 +2304,7 @@
     },
     "Counterfeit Manga": {
       "stock": 2389,
-      "lastStock": 2500,
+      "lastStock": 2389,
       "lastRestock": 1772374138,
       "refills": [
         1772299366,
@@ -2315,8 +2315,8 @@
       ],
       "avgInterval": 18693,
       "cost": 21765,
-      "costDiff": 86,
-      "lastCost": 21679
+      "costDiff": 0,
+      "lastCost": 21765
     },
     "Whale Meat": {
       "stock": 0,
@@ -2331,8 +2331,8 @@
       ],
       "avgInterval": 37732,
       "cost": 1930,
-      "costDiff": 5,
-      "lastCost": 1925
+      "costDiff": 0,
+      "lastCost": 1930
     }
   },
   "chi": {
@@ -2700,7 +2700,7 @@
     },
     "Tribulus Omanense": {
       "stock": 467,
-      "lastStock": 982,
+      "lastStock": 467,
       "lastRestock": 1772351349,
       "refills": [
         1772226610,
@@ -2726,7 +2726,7 @@
     },
     "Camel Plushie": {
       "stock": 0,
-      "lastStock": 641,
+      "lastStock": 0,
       "lastRestock": 1772371405,
       "refills": [
         1772359554,
@@ -2742,7 +2742,7 @@
     },
     "Potassium Nitrate": {
       "stock": 1686,
-      "lastStock": 1764,
+      "lastStock": 1686,
       "lastRestock": 1772359554,
       "refills": [
         1772133787,
@@ -2769,12 +2769,12 @@
       ],
       "avgInterval": 96465,
       "cost": 350781,
-      "costDiff": 1173,
-      "lastCost": 349608
+      "costDiff": 0,
+      "lastCost": 350781
     },
     "Natural Pearls": {
       "stock": 952,
-      "lastStock": 971,
+      "lastStock": 952,
       "lastRestock": 1772323066,
       "refills": [
         1772026753,
@@ -2785,8 +2785,8 @@
       ],
       "avgInterval": 74078,
       "cost": 98889,
-      "costDiff": -230,
-      "lastCost": 99119
+      "costDiff": 0,
+      "lastCost": 98889
     }
   },
   "sou": {
@@ -3103,9 +3103,9 @@
   },
   "__meta": {
     "started": 1771789128,
-    "checks": 631,
-    "lastCheck": 1772375046,
-    "humanRuntime": "6d 18h 45m",
-    "lastRun": 1772375046
+    "checks": 632,
+    "lastCheck": 1772375956,
+    "humanRuntime": "6d 19h",
+    "lastRun": 1772375956
   }
 }
