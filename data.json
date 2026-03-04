@@ -1,7 +1,7 @@
 {
   "mex": {
     "Claymore Mine": {
-      "stock": 118,
+      "stock": 99,
       "lastStock": 118,
       "lastRestock": 1772624967,
       "refills": [
@@ -18,7 +18,7 @@
     },
     "Jaguar Plushie": {
       "stock": 0,
-      "lastStock": 51,
+      "lastStock": 0,
       "lastRestock": 1772654360,
       "refills": [
         1772642419,
@@ -33,7 +33,7 @@
       "lastCost": 10000
     },
     "Bottle of Tequila": {
-      "stock": 981,
+      "stock": 878,
       "lastStock": 981,
       "lastRestock": 1772654360,
       "refills": [
@@ -95,8 +95,8 @@
       "lastCost": 15000
     },
     "Mayan Statue": {
-      "stock": 220,
-      "lastStock": 20,
+      "stock": 187,
+      "lastStock": 220,
       "lastRestock": 1772656197,
       "refills": [
         1772622231,
@@ -251,8 +251,8 @@
       "lastCost": 300
     },
     "Dahlia": {
-      "stock": 343,
-      "lastStock": 915,
+      "stock": 0,
+      "lastStock": 343,
       "lastRestock": 1772642419,
       "refills": [
         1772538468,
@@ -267,7 +267,7 @@
       "lastCost": 300
     },
     "Bolt Cutters": {
-      "stock": 272,
+      "stock": 242,
       "lastStock": 272,
       "lastRestock": 1772500161,
       "refills": [
@@ -309,7 +309,7 @@
       "lastCost": 45000
     },
     "Cobra Derringer": {
-      "stock": 44,
+      "stock": 15,
       "lastStock": 44,
       "lastRestock": 1772558571,
       "refills": [
@@ -356,8 +356,8 @@
       "lastCost": 4200
     },
     "Card Skimmer": {
-      "stock": 789,
-      "lastStock": 813,
+      "stock": 539,
+      "lastStock": 789,
       "lastRestock": 1772500161,
       "refills": [
         1771874142,
@@ -371,8 +371,8 @@
       "lastCost": 175
     },
     "Zip Ties": {
-      "stock": 953,
-      "lastStock": 999,
+      "stock": 841,
+      "lastStock": 953,
       "lastRestock": 1772654360,
       "refills": [
         1772510215,
@@ -387,7 +387,7 @@
       "lastCost": 25
     },
     "Obsidian Point": {
-      "stock": 813,
+      "stock": 750,
       "lastStock": 813,
       "lastRestock": 1772647937,
       "refills": [
@@ -398,8 +398,8 @@
         1772647937
       ],
       "avgInterval": 126020,
-      "cost": 117213,
-      "costDiff": 0,
+      "cost": 117322,
+      "costDiff": 109,
       "lastCost": 117213
     }
   },
@@ -435,8 +435,8 @@
       "lastCost": 6000
     },
     "Banana Orchid": {
-      "stock": 5461,
-      "lastStock": 6374,
+      "stock": 5092,
+      "lastStock": 5461,
       "lastRestock": 1772651605,
       "refills": [
         1772550341,
@@ -519,17 +519,17 @@
       "lastCost": 8000
     },
     "Nodding Turtle": {
-      "stock": 0,
+      "stock": 100,
       "lastStock": 0,
-      "lastRestock": 1772651605,
+      "lastRestock": 1772657106,
       "refills": [
-        1772628621,
         1772635010,
         1772643348,
         1772648854,
-        1772651605
+        1772651605,
+        1772657106
       ],
-      "avgInterval": 5746,
+      "avgInterval": 5524,
       "cost": 750,
       "costDiff": 0,
       "lastCost": 750
@@ -551,24 +551,24 @@
       "lastCost": 3
     },
     "Stingray Plushie": {
-      "stock": 0,
-      "lastStock": 837,
-      "lastRestock": 1772655278,
+      "stock": 1501,
+      "lastStock": 0,
+      "lastRestock": 1772657106,
       "refills": [
-        1772640588,
         1772643348,
         1772646108,
         1772648854,
-        1772655278
+        1772655278,
+        1772657106
       ],
-      "avgInterval": 3673,
+      "avgInterval": 3440,
       "cost": 400,
       "costDiff": 0,
       "lastCost": 400
     },
     "Diamond Bladed Knife": {
-      "stock": 51,
-      "lastStock": 52,
+      "stock": 49,
+      "lastStock": 51,
       "lastRestock": 1772644264,
       "refills": [
         1771811009,
@@ -625,7 +625,7 @@
     },
     "Bearer Bond": {
       "stock": 723,
-      "lastStock": 753,
+      "lastStock": 723,
       "lastRestock": 1772483732,
       "refills": [
         1771957413,
@@ -633,9 +633,9 @@
         1772483732
       ],
       "avgInterval": 263160,
-      "cost": 91962,
-      "costDiff": -32,
-      "lastCost": 91994
+      "cost": 92305,
+      "costDiff": 343,
+      "lastCost": 91962
     }
   },
   "can": {
@@ -653,8 +653,8 @@
       "lastCost": 77000
     },
     "Hockey Stick": {
-      "stock": 227,
-      "lastStock": 242,
+      "stock": 160,
+      "lastStock": 227,
       "lastRestock": 1772653443,
       "refills": [
         1772407866,
@@ -685,7 +685,7 @@
       "lastCost": 600
     },
     "Ecstasy": {
-      "stock": 252,
+      "stock": 218,
       "lastStock": 252,
       "lastRestock": 1772589400,
       "refills": [
@@ -696,13 +696,13 @@
         1772589400
       ],
       "avgInterval": 151837,
-      "cost": 37853,
-      "costDiff": 69,
-      "lastCost": 37784
+      "cost": 37907,
+      "costDiff": 54,
+      "lastCost": 37853
     },
     "Wolverine Plushie": {
       "stock": 0,
-      "lastStock": 1602,
+      "lastStock": 0,
       "lastRestock": 1772655278,
       "refills": [
         1772644264,
@@ -717,8 +717,8 @@
       "lastCost": 30
     },
     "PVC Cards": {
-      "stock": 144,
-      "lastStock": 151,
+      "stock": 102,
+      "lastStock": 144,
       "lastRestock": 1772593947,
       "refills": [
         1772259278,
@@ -733,7 +733,7 @@
       "lastCost": 12500
     },
     "Cannabis": {
-      "stock": 378,
+      "stock": 279,
       "lastStock": 378,
       "lastRestock": 1772643348,
       "refills": [
@@ -744,9 +744,9 @@
         1772643348
       ],
       "avgInterval": 37164,
-      "cost": 3054,
-      "costDiff": 3,
-      "lastCost": 3051
+      "cost": 3050,
+      "costDiff": -4,
+      "lastCost": 3054
     },
     "Vicodin": {
       "stock": 666,
@@ -756,13 +756,13 @@
         1772109141
       ],
       "avgInterval": null,
-      "cost": 2070,
-      "costDiff": -4,
-      "lastCost": 2074
+      "cost": 2069,
+      "costDiff": -1,
+      "lastCost": 2070
     },
     "Bear Gall": {
       "stock": 0,
-      "lastStock": 142,
+      "lastStock": 0,
       "lastRestock": 1772653443,
       "refills": [
         1772609464,
@@ -772,9 +772,9 @@
         1772653443
       ],
       "avgInterval": 10995,
-      "cost": 26130,
-      "costDiff": -32,
-      "lastCost": 26162
+      "cost": 26100,
+      "costDiff": -30,
+      "lastCost": 26130
     },
     "PCP": {
       "stock": 284,
@@ -783,11 +783,11 @@
       "refills": [],
       "avgInterval": null,
       "cost": 7329,
-      "costDiff": 10,
-      "lastCost": 7319
+      "costDiff": 0,
+      "lastCost": 7329
     },
     "Ice Pick": {
-      "stock": 49,
+      "stock": 20,
       "lastStock": 49,
       "lastRestock": 1772615850,
       "refills": [
@@ -842,8 +842,8 @@
       "lastCost": 20000
     },
     "Xanax": {
-      "stock": 1356,
-      "lastStock": 1376,
+      "stock": 1331,
+      "lastStock": 1356,
       "lastRestock": 1772441634,
       "refills": [
         1771960173,
@@ -853,9 +853,9 @@
         1772441634
       ],
       "avgInterval": 120365,
-      "cost": 838484,
-      "costDiff": -1285,
-      "lastCost": 839769
+      "cost": 839038,
+      "costDiff": 554,
+      "lastCost": 838484
     },
     "Mountie Hat": {
       "stock": 0,
@@ -874,8 +874,8 @@
       "lastCost": 30000
     },
     "Aluminum Plate": {
-      "stock": 2089,
-      "lastStock": 2160,
+      "stock": 1918,
+      "lastStock": 2089,
       "lastRestock": 1772649770,
       "refills": [
         1772261098,
@@ -906,8 +906,8 @@
       "lastCost": 25
     },
     "Insulin": {
-      "stock": 509,
-      "lastStock": 801,
+      "stock": 76,
+      "lastStock": 509,
       "lastRestock": 1772649770,
       "refills": [
         1772569319,
@@ -917,9 +917,9 @@
         1772649770
       ],
       "avgInterval": 20113,
-      "cost": 2763,
-      "costDiff": -3,
-      "lastCost": 2766
+      "cost": 2761,
+      "costDiff": -2,
+      "lastCost": 2763
     },
     "Quartz Point": {
       "stock": 0,
@@ -933,15 +933,15 @@
         1772593038
       ],
       "avgInterval": 135569,
-      "cost": 134936,
-      "costDiff": -212,
-      "lastCost": 135148
+      "cost": 134665,
+      "costDiff": -271,
+      "lastCost": 134936
     }
   },
   "haw": {
     "Medium Suitcase": {
       "stock": 35,
-      "lastStock": 36,
+      "lastStock": 35,
       "lastRestock": 1772389635,
       "refills": [
         1772389635
@@ -989,7 +989,7 @@
       "lastCost": 20000
     },
     "Bushmaster Carbon 15": {
-      "stock": 73,
+      "stock": 72,
       "lastStock": 73,
       "lastRestock": 1772589400,
       "refills": [
@@ -1035,7 +1035,7 @@
     },
     "Taurus": {
       "stock": 29,
-      "lastStock": 34,
+      "lastStock": 29,
       "lastRestock": 1772625877,
       "refills": [
         1772489224,
@@ -1050,7 +1050,7 @@
       "lastCost": 650
     },
     "Large Suitcase": {
-      "stock": 4,
+      "stock": 2,
       "lastStock": 4,
       "lastRestock": 1772620413,
       "refills": [
@@ -1066,8 +1066,8 @@
       "lastCost": 10000000
     },
     "Orchid": {
-      "stock": 9788,
-      "lastStock": 0,
+      "stock": 9202,
+      "lastStock": 9788,
       "lastRestock": 1772656197,
       "refills": [
         1772569319,
@@ -1082,8 +1082,8 @@
       "lastCost": 700
     },
     "Basalt Point": {
-      "stock": 608,
-      "lastStock": 631,
+      "stock": 523,
+      "lastStock": 608,
       "lastRestock": 1772645183,
       "refills": [
         1772117342,
@@ -1093,13 +1093,13 @@
         1772645183
       ],
       "avgInterval": 131960,
-      "cost": 122641,
-      "costDiff": 402,
-      "lastCost": 122239
+      "cost": 122599,
+      "costDiff": -42,
+      "lastCost": 122641
     },
     "Shark Fin": {
       "stock": 0,
-      "lastStock": 50,
+      "lastStock": 0,
       "lastRestock": 1772653443,
       "refills": [
         1772617678,
@@ -1109,13 +1109,13 @@
         1772653443
       ],
       "avgInterval": 8941,
-      "cost": 21247,
-      "costDiff": 0,
+      "cost": 21265,
+      "costDiff": 18,
       "lastCost": 21247
     },
     "Turtle Shell": {
-      "stock": 185,
-      "lastStock": 966,
+      "stock": 0,
+      "lastStock": 185,
       "lastRestock": 1772653443,
       "refills": [
         1772620413,
@@ -1125,15 +1125,15 @@
         1772653443
       ],
       "avgInterval": 8258,
-      "cost": 67139,
-      "costDiff": 176,
-      "lastCost": 66963
+      "cost": 67125,
+      "costDiff": -14,
+      "lastCost": 67139
     }
   },
   "uni": {
     "Heather": {
-      "stock": 7979,
-      "lastStock": 9488,
+      "stock": 7587,
+      "lastStock": 7979,
       "lastRestock": 1772655278,
       "refills": [
         1772559482,
@@ -1206,8 +1206,8 @@
       "lastCost": 25000
     },
     "Red Fox Plushie": {
-      "stock": 1723,
-      "lastStock": 0,
+      "stock": 1019,
+      "lastStock": 1723,
       "lastRestock": 1772656197,
       "refills": [
         1772645183,
@@ -1222,7 +1222,7 @@
       "lastCost": 1000
     },
     "Ecstasy": {
-      "stock": 32,
+      "stock": 30,
       "lastStock": 32,
       "lastRestock": 1772447109,
       "refills": [
@@ -1231,9 +1231,9 @@
         1772447109
       ],
       "avgInterval": 297068,
-      "cost": 31218,
-      "costDiff": 57,
-      "lastCost": 31161
+      "cost": 31153,
+      "costDiff": -65,
+      "lastCost": 31218
     },
     "WWII Helmet": {
       "stock": 47,
@@ -1249,16 +1249,16 @@
     },
     "Cannabis": {
       "stock": 290,
-      "lastStock": 295,
+      "lastStock": 290,
       "lastRestock": 1772291157,
       "refills": [
         1771966548,
         1772291157
       ],
       "avgInterval": 324609,
-      "cost": 3283,
-      "costDiff": -18,
-      "lastCost": 3301
+      "cost": 3275,
+      "costDiff": -8,
+      "lastCost": 3283
     },
     "Ketamine": {
       "stock": 81,
@@ -1266,13 +1266,13 @@
       "lastRestock": null,
       "refills": [],
       "avgInterval": null,
-      "cost": 948,
+      "cost": 947,
       "costDiff": -1,
-      "lastCost": 949
+      "lastCost": 948
     },
     "Nessie Plushie": {
-      "stock": 1940,
-      "lastStock": 0,
+      "stock": 729,
+      "lastStock": 1940,
       "lastRestock": 1772656197,
       "refills": [
         1772645183,
@@ -1321,9 +1321,9 @@
       "lastRestock": null,
       "refills": [],
       "avgInterval": null,
-      "cost": 1676,
-      "costDiff": 3,
-      "lastCost": 1673
+      "cost": 1675,
+      "costDiff": -1,
+      "lastCost": 1676
     },
     "PCP": {
       "stock": 511,
@@ -1331,9 +1331,9 @@
       "lastRestock": null,
       "refills": [],
       "avgInterval": null,
-      "cost": 5934,
-      "costDiff": -2,
-      "lastCost": 5936
+      "cost": 5931,
+      "costDiff": -3,
+      "lastCost": 5934
     },
     "Grenade": {
       "stock": 327,
@@ -1403,9 +1403,9 @@
         1772035006
       ],
       "avgInterval": null,
-      "cost": 966188,
-      "costDiff": 2768,
-      "lastCost": 963420
+      "cost": 967850,
+      "costDiff": 1662,
+      "lastCost": 966188
     },
     "Model Space Ship": {
       "stock": 6,
@@ -1454,12 +1454,12 @@
       ],
       "avgInterval": null,
       "cost": 1105,
-      "costDiff": -4,
-      "lastCost": 1109
+      "costDiff": 0,
+      "lastCost": 1105
     },
     "Inkwell": {
       "stock": 250,
-      "lastStock": 0,
+      "lastStock": 250,
       "lastRestock": 1772656197,
       "refills": [
         1772543039,
@@ -1485,14 +1485,14 @@
         1772619503
       ],
       "avgInterval": 123031,
-      "cost": 111148,
-      "costDiff": 142,
-      "lastCost": 111006
+      "cost": 110726,
+      "costDiff": -422,
+      "lastCost": 111148
     }
   },
   "arg": {
     "Ceibo Flower": {
-      "stock": 4767,
+      "stock": 3243,
       "lastStock": 4767,
       "lastRestock": 1772648854,
       "refills": [
@@ -1508,7 +1508,7 @@
       "lastCost": 500
     },
     "Monkey Plushie": {
-      "stock": 1457,
+      "stock": 0,
       "lastStock": 1457,
       "lastRestock": 1772655278,
       "refills": [
@@ -1537,7 +1537,7 @@
       "lastCost": 35000
     },
     "Cannabis": {
-      "stock": 157,
+      "stock": 129,
       "lastStock": 157,
       "lastRestock": 1772591220,
       "refills": [
@@ -1548,8 +1548,8 @@
         1772591220
       ],
       "avgInterval": 153660,
-      "cost": 2873,
-      "costDiff": 0,
+      "cost": 2863,
+      "costDiff": -10,
       "lastCost": 2873
     },
     "Ketamine": {
@@ -1558,8 +1558,8 @@
       "lastRestock": null,
       "refills": [],
       "avgInterval": null,
-      "cost": 856,
-      "costDiff": 0,
+      "cost": 850,
+      "costDiff": -6,
       "lastCost": 856
     },
     "Speed": {
@@ -1568,8 +1568,8 @@
       "lastRestock": null,
       "refills": [],
       "avgInterval": null,
-      "cost": 5546,
-      "costDiff": 0,
+      "cost": 5539,
+      "costDiff": -7,
       "lastCost": 5546
     },
     "Flamethrower": {
@@ -1668,7 +1668,7 @@
       "lastCost": 50
     },
     "Shrooms": {
-      "stock": 35,
+      "stock": 10,
       "lastStock": 35,
       "lastRestock": 1772341311,
       "refills": [
@@ -1677,12 +1677,12 @@
         1772341311
       ],
       "avgInterval": 232651,
-      "cost": 873,
-      "costDiff": 0,
+      "cost": 874,
+      "costDiff": 1,
       "lastCost": 873
     },
     "Lighter": {
-      "stock": 393,
+      "stock": 389,
       "lastStock": 393,
       "lastRestock": 1772635922,
       "refills": [
@@ -1698,19 +1698,19 @@
       "lastCost": 5
     },
     "Chalcedony Point": {
-      "stock": 0,
+      "stock": 999,
       "lastStock": 0,
-      "lastRestock": 1772558571,
+      "lastRestock": 1772657106,
       "refills": [
-        1772074506,
         1772187693,
         1772313035,
         1772442545,
-        1772558571
+        1772558571,
+        1772657106
       ],
-      "avgInterval": 121016,
-      "cost": 119601,
-      "costDiff": 0,
+      "avgInterval": 117353,
+      "cost": 119342,
+      "costDiff": -259,
       "lastCost": 119601
     },
     "Meteorite Fragment": {
@@ -1721,8 +1721,8 @@
         1772122818
       ],
       "avgInterval": null,
-      "cost": 504153,
-      "costDiff": 0,
+      "cost": 501864,
+      "costDiff": -2289,
       "lastCost": 504153
     },
     "Patagonian Fossil": {
@@ -1737,15 +1737,15 @@
         1772591220
       ],
       "avgInterval": 105000,
-      "cost": 581128,
-      "costDiff": 0,
+      "cost": 581853,
+      "costDiff": 725,
       "lastCost": 581128
     }
   },
   "swi": {
     "Chamois Plushie": {
-      "stock": 481,
-      "lastStock": 1180,
+      "stock": 0,
+      "lastStock": 481,
       "lastRestock": 1772654360,
       "refills": [
         1772644264,
@@ -1760,8 +1760,8 @@
       "lastCost": 400
     },
     "Edelweiss": {
-      "stock": 6534,
-      "lastStock": 6572,
+      "stock": 5449,
+      "lastStock": 6534,
       "lastRestock": 1772647937,
       "refills": [
         1772546689,
@@ -1776,20 +1776,21 @@
       "lastCost": 900
     },
     "Snowboard": {
-      "stock": 0,
+      "stock": 1000,
       "lastStock": 0,
-      "lastRestock": 1772108229,
+      "lastRestock": 1772657106,
       "refills": [
-        1772108229
+        1772108229,
+        1772657106
       ],
-      "avgInterval": null,
+      "avgInterval": 548877,
       "cost": 6000,
       "costDiff": 0,
       "lastCost": 6000
     },
     "Cannabis": {
-      "stock": 141,
-      "lastStock": 171,
+      "stock": 95,
+      "lastStock": 141,
       "lastRestock": 1772634099,
       "refills": [
         1772419761,
@@ -1799,12 +1800,12 @@
         1772634099
       ],
       "avgInterval": 53585,
-      "cost": 3059,
-      "costDiff": 10,
-      "lastCost": 3049
+      "cost": 3048,
+      "costDiff": -11,
+      "lastCost": 3059
     },
     "Ketamine": {
-      "stock": 118,
+      "stock": 89,
       "lastStock": 118,
       "lastRestock": 1772307564,
       "refills": [
@@ -1813,9 +1814,9 @@
         1772307564
       ],
       "avgInterval": 256916,
-      "cost": 949,
+      "cost": 948,
       "costDiff": -1,
-      "lastCost": 950
+      "lastCost": 949
     },
     "Speed": {
       "stock": 830,
@@ -1825,9 +1826,9 @@
         1772419761
       ],
       "avgInterval": null,
-      "cost": 4329,
-      "costDiff": -16,
-      "lastCost": 4345
+      "cost": 4306,
+      "costDiff": -23,
+      "lastCost": 4329
     },
     "SIG 552": {
       "stock": 0,
@@ -1841,7 +1842,7 @@
     },
     "Neumune Tablet": {
       "stock": 0,
-      "lastStock": 2,
+      "lastStock": 0,
       "lastRestock": 1772655278,
       "refills": [
         1772377780,
@@ -1863,9 +1864,9 @@
         1772627704
       ],
       "avgInterval": null,
-      "cost": 6379,
-      "costDiff": 2,
-      "lastCost": 6377
+      "cost": 6382,
+      "costDiff": 3,
+      "lastCost": 6379
     },
     "Jackhammer": {
       "stock": 24,
@@ -1888,9 +1889,9 @@
         1772635010
       ],
       "avgInterval": 198778,
-      "cost": 25049,
-      "costDiff": -7,
-      "lastCost": 25056
+      "cost": 25175,
+      "costDiff": 126,
+      "lastCost": 25049
     },
     "Swiss Army Knife": {
       "stock": 199,
@@ -1907,36 +1908,36 @@
       "lastCost": 2500
     },
     "Flash Grenade": {
-      "stock": 84,
-      "lastStock": 203,
-      "lastRestock": 1772655278,
+      "stock": 338,
+      "lastStock": 84,
+      "lastRestock": 1772657106,
       "refills": [
-        1772643348,
         1772645183,
         1772647023,
         1772647937,
-        1772655278
+        1772655278,
+        1772657106
       ],
-      "avgInterval": 2983,
+      "avgInterval": 2981,
       "cost": 12000,
       "costDiff": 0,
       "lastCost": 12000
     },
     "Shrooms": {
-      "stock": 0,
+      "stock": 1000,
       "lastStock": 0,
-      "lastRestock": 1772478258,
+      "lastRestock": 1772657106,
       "refills": [
-        1771961995,
         1772048942,
         1772199549,
         1772304837,
-        1772478258
+        1772478258,
+        1772657106
       ],
-      "avgInterval": 129066,
-      "cost": 1021,
-      "costDiff": 2,
-      "lastCost": 1019
+      "avgInterval": 152041,
+      "cost": 1019,
+      "costDiff": -2,
+      "lastCost": 1021
     },
     "Dozen White Roses": {
       "stock": 1,
@@ -1949,8 +1950,8 @@
       "lastCost": 950000000
     },
     "Ephedrine Powder": {
-      "stock": 875,
-      "lastStock": 0,
+      "stock": 302,
+      "lastStock": 875,
       "lastRestock": 1772656197,
       "refills": [
         1772619503,
@@ -1960,9 +1961,9 @@
         1772656197
       ],
       "avgInterval": 9174,
-      "cost": 15480,
-      "costDiff": -12,
-      "lastCost": 15492
+      "cost": 15497,
+      "costDiff": 17,
+      "lastCost": 15480
     },
     "Ergotamine Ampoule": {
       "stock": 0,
@@ -1976,9 +1977,9 @@
         1772646108
       ],
       "avgInterval": 18738,
-      "cost": 4731,
-      "costDiff": -15,
-      "lastCost": 4746
+      "cost": 4722,
+      "costDiff": -9,
+      "lastCost": 4731
     },
     "Safrole Oil": {
       "stock": 0,
@@ -1992,9 +1993,9 @@
         1772647937
       ],
       "avgInterval": 14407,
-      "cost": 5365,
-      "costDiff": 2,
-      "lastCost": 5363
+      "cost": 5350,
+      "costDiff": -15,
+      "lastCost": 5365
     }
   },
   "jap": {
@@ -2057,7 +2058,7 @@
       "lastCost": 95000
     },
     "Glow Stick": {
-      "stock": 709,
+      "stock": 651,
       "lastStock": 709,
       "lastRestock": 1772647023,
       "refills": [
@@ -2109,20 +2110,20 @@
         1772648854
       ],
       "avgInterval": 128537,
-      "cost": 30105,
-      "costDiff": 0,
+      "cost": 30203,
+      "costDiff": 98,
       "lastCost": 30105
     },
     "Opium": {
-      "stock": 458,
+      "stock": 456,
       "lastStock": 458,
       "lastRestock": 1772416103,
       "refills": [
         1772416103
       ],
       "avgInterval": null,
-      "cost": 18109,
-      "costDiff": 0,
+      "cost": 18132,
+      "costDiff": 23,
       "lastCost": 18109
     },
     "Ninja Star": {
@@ -2173,8 +2174,8 @@
       "lastRestock": null,
       "refills": [],
       "avgInterval": null,
-      "cost": 934,
-      "costDiff": 0,
+      "cost": 935,
+      "costDiff": 1,
       "lastCost": 934
     },
     "Speed": {
@@ -2183,12 +2184,12 @@
       "lastRestock": null,
       "refills": [],
       "avgInterval": null,
-      "cost": 4845,
-      "costDiff": 0,
+      "cost": 4833,
+      "costDiff": -12,
       "lastCost": 4845
     },
     "Sumo Doll": {
-      "stock": 48,
+      "stock": 4,
       "lastStock": 48,
       "lastRestock": 1772653443,
       "refills": [
@@ -2209,8 +2210,8 @@
       "lastRestock": null,
       "refills": [],
       "avgInterval": null,
-      "cost": 1815,
-      "costDiff": 0,
+      "cost": 1812,
+      "costDiff": -3,
       "lastCost": 1815
     },
     "Metal Nunchaku": {
@@ -2248,7 +2249,7 @@
       "lastCost": 15000000
     },
     "Cherry Blossom": {
-      "stock": 5862,
+      "stock": 4781,
       "lastStock": 5862,
       "lastRestock": 1772648854,
       "refills": [
@@ -2275,22 +2276,22 @@
         1772652527
       ],
       "avgInterval": 8712,
-      "cost": 719519,
-      "costDiff": 0,
+      "cost": 720170,
+      "costDiff": 651,
       "lastCost": 719519
     },
     "Chopsticks": {
-      "stock": 0,
+      "stock": 50,
       "lastStock": 0,
-      "lastRestock": 1772637834,
+      "lastRestock": 1772657106,
       "refills": [
-        1772520244,
         1772554010,
         1772585743,
         1772626791,
-        1772637834
+        1772637834,
+        1772657106
       ],
-      "avgInterval": 29398,
+      "avgInterval": 25774,
       "cost": 25,
       "costDiff": 0,
       "lastCost": 25
@@ -2335,12 +2336,12 @@
         1772285694
       ],
       "avgInterval": null,
-      "cost": 892,
-      "costDiff": 0,
+      "cost": 897,
+      "costDiff": 5,
       "lastCost": 892
     },
     "Bonded Latex": {
-      "stock": 2350,
+      "stock": 2349,
       "lastStock": 2350,
       "lastRestock": 1772648854,
       "refills": [
@@ -2368,7 +2369,7 @@
       "lastCost": 24250
     },
     "Counterfeit Manga": {
-      "stock": 941,
+      "stock": 0,
       "lastStock": 941,
       "lastRestock": 1772652527,
       "refills": [
@@ -2379,8 +2380,8 @@
         1772652527
       ],
       "avgInterval": 14645,
-      "cost": 20757,
-      "costDiff": 0,
+      "cost": 20795,
+      "costDiff": 38,
       "lastCost": 20757
     },
     "Whale Meat": {
@@ -2395,15 +2396,15 @@
         1772645183
       ],
       "avgInterval": 22566,
-      "cost": 1839,
-      "costDiff": 0,
+      "cost": 1834,
+      "costDiff": -5,
       "lastCost": 1839
     }
   },
   "chi": {
     "Peony": {
-      "stock": 9873,
-      "lastStock": 0,
+      "stock": 9741,
+      "lastStock": 9873,
       "lastRestock": 1772656197,
       "refills": [
         1772543954,
@@ -2418,20 +2419,20 @@
       "lastCost": 5000
     },
     "Ecstasy": {
-      "stock": 847,
-      "lastStock": 886,
+      "stock": 822,
+      "lastStock": 847,
       "lastRestock": 1772625877,
       "refills": [
         1772120081,
         1772625877
       ],
       "avgInterval": 505796,
-      "cost": 27046,
-      "costDiff": 16,
-      "lastCost": 27030
+      "cost": 27211,
+      "costDiff": 165,
+      "lastCost": 27046
     },
     "Opium": {
-      "stock": 459,
+      "stock": 437,
       "lastStock": 459,
       "lastRestock": 1771924449,
       "refills": [
@@ -2439,8 +2440,8 @@
       ],
       "avgInterval": null,
       "cost": 18402,
-      "costDiff": 13,
-      "lastCost": 18389
+      "costDiff": 0,
+      "lastCost": 18402
     },
     "Blowgun": {
       "stock": 68,
@@ -2460,7 +2461,7 @@
     },
     "Wushu Double Axes": {
       "stock": 0,
-      "lastStock": 8,
+      "lastStock": 0,
       "lastRestock": 1772639666,
       "refills": [
         1772325802,
@@ -2480,9 +2481,9 @@
       "lastRestock": null,
       "refills": [],
       "avgInterval": null,
-      "cost": 4499,
-      "costDiff": -3,
-      "lastCost": 4502
+      "cost": 4507,
+      "costDiff": 8,
+      "lastCost": 4499
     },
     "SKS Carbine": {
       "stock": 4,
@@ -2519,12 +2520,12 @@
       "refills": [],
       "avgInterval": null,
       "cost": 6951,
-      "costDiff": -32,
-      "lastCost": 6983
+      "costDiff": 0,
+      "lastCost": 6951
     },
     "Panda Plushie": {
-      "stock": 1259,
-      "lastStock": 0,
+      "stock": 658,
+      "lastStock": 1259,
       "lastRestock": 1772656197,
       "refills": [
         1772641508,
@@ -2557,9 +2558,9 @@
       "lastRestock": null,
       "refills": [],
       "avgInterval": null,
-      "cost": 22600,
-      "costDiff": -62,
-      "lastCost": 22662
+      "cost": 22632,
+      "costDiff": 32,
+      "lastCost": 22600
     },
     "Fireworks": {
       "stock": 32,
@@ -2592,7 +2593,7 @@
     },
     "Stick of Dynamite": {
       "stock": 100,
-      "lastStock": 0,
+      "lastStock": 100,
       "lastRestock": 1772656197,
       "refills": [
         1771903484,
@@ -2606,7 +2607,7 @@
     },
     "Jade Buddha": {
       "stock": 0,
-      "lastStock": 16,
+      "lastStock": 0,
       "lastRestock": 1772545773,
       "refills": [
         1772228455,
@@ -2622,7 +2623,7 @@
     },
     "Katana": {
       "stock": 0,
-      "lastStock": 2,
+      "lastStock": 0,
       "lastRestock": null,
       "refills": [],
       "avgInterval": null,
@@ -2644,7 +2645,7 @@
     },
     "Twin Tiger Hooks": {
       "stock": 0,
-      "lastStock": 9,
+      "lastStock": 0,
       "lastRestock": 1772342223,
       "refills": [
         1771797012,
@@ -2659,7 +2660,7 @@
     },
     "Magnesium Shavings": {
       "stock": 432,
-      "lastStock": 523,
+      "lastStock": 432,
       "lastRestock": 1772604909,
       "refills": [
         1772241024,
@@ -2674,8 +2675,8 @@
       "lastCost": 22000
     },
     "Pangolin Scales": {
-      "stock": 632,
-      "lastStock": 1032,
+      "stock": 337,
+      "lastStock": 632,
       "lastRestock": 1772650682,
       "refills": [
         1772603999,
@@ -2685,13 +2686,13 @@
         1772650682
       ],
       "avgInterval": 11671,
-      "cost": 131507,
-      "costDiff": -3,
-      "lastCost": 131510
+      "cost": 131242,
+      "costDiff": -265,
+      "lastCost": 131507
     },
     "Tiger Bone Powder": {
-      "stock": 1429,
-      "lastStock": 1507,
+      "stock": 1400,
+      "lastStock": 1429,
       "lastRestock": 1772630447,
       "refills": [
         1772305745,
@@ -2701,9 +2702,9 @@
         1772630447
       ],
       "avgInterval": 81176,
-      "cost": 27693,
-      "costDiff": 151,
-      "lastCost": 27542
+      "cost": 27669,
+      "costDiff": -24,
+      "lastCost": 27693
     }
   },
   "uae": {
@@ -2771,7 +2772,7 @@
       "lastCost": 100000
     },
     "Tribulus Omanense": {
-      "stock": 3364,
+      "stock": 2329,
       "lastStock": 3364,
       "lastRestock": 1772643348,
       "refills": [
@@ -2797,23 +2798,23 @@
       "lastCost": 8000000000
     },
     "Camel Plushie": {
-      "stock": 0,
+      "stock": 928,
       "lastStock": 0,
-      "lastRestock": 1772650682,
+      "lastRestock": 1772657106,
       "refills": [
-        1772641508,
         1772643348,
         1772645183,
         1772647937,
-        1772650682
+        1772650682,
+        1772657106
       ],
-      "avgInterval": 2294,
+      "avgInterval": 3440,
       "cost": 14000,
       "costDiff": 0,
       "lastCost": 14000
     },
     "Potassium Nitrate": {
-      "stock": 287,
+      "stock": 236,
       "lastStock": 287,
       "lastRestock": 1772632273,
       "refills": [
@@ -2840,12 +2841,12 @@
         1772604909
       ],
       "avgInterval": 96772,
-      "cost": 342421,
-      "costDiff": 0,
+      "cost": 341330,
+      "costDiff": -1091,
       "lastCost": 342421
     },
     "Natural Pearls": {
-      "stock": 689,
+      "stock": 578,
       "lastStock": 689,
       "lastRestock": 1772622231,
       "refills": [
@@ -2856,30 +2857,30 @@
         1772622231
       ],
       "avgInterval": 74791,
-      "cost": 94309,
-      "costDiff": 0,
+      "cost": 94320,
+      "costDiff": 11,
       "lastCost": 94309
     }
   },
   "sou": {
     "Combat Pants": {
-      "stock": 0,
+      "stock": 50,
       "lastStock": 0,
-      "lastRestock": 1772572977,
+      "lastRestock": 1772657106,
       "refills": [
-        1772340398,
         1772437086,
         1772481908,
         1772514770,
-        1772572977
+        1772572977,
+        1772657106
       ],
-      "avgInterval": 58145,
+      "avgInterval": 55005,
       "cost": 2950000,
       "costDiff": 0,
       "lastCost": 2950000
     },
     "Afro Comb": {
-      "stock": 380,
+      "stock": 379,
       "lastStock": 380,
       "lastRestock": 1772379605,
       "refills": [
@@ -2892,7 +2893,7 @@
     },
     "Spear": {
       "stock": 30,
-      "lastStock": 31,
+      "lastStock": 30,
       "lastRestock": 1772474613,
       "refills": [
         1772147499,
@@ -2904,8 +2905,8 @@
       "lastCost": 600
     },
     "African Violet": {
-      "stock": 2712,
-      "lastStock": 2840,
+      "stock": 2122,
+      "lastStock": 2712,
       "lastRestock": 1772641508,
       "refills": [
         1772528443,
@@ -2927,12 +2928,12 @@
         1772102746
       ],
       "avgInterval": null,
-      "cost": 20044,
-      "costDiff": -16,
-      "lastCost": 20060
+      "cost": 19973,
+      "costDiff": -71,
+      "lastCost": 20044
     },
     "Elephant Statue": {
-      "stock": 75,
+      "stock": 63,
       "lastStock": 75,
       "lastRestock": 1772652527,
       "refills": [
@@ -2959,13 +2960,13 @@
         1772649770
       ],
       "avgInterval": 19426,
-      "cost": 2128,
-      "costDiff": 4,
-      "lastCost": 2124
+      "cost": 2127,
+      "costDiff": -1,
+      "lastCost": 2128
     },
     "Smoke Grenade": {
-      "stock": 2261,
-      "lastStock": 2338,
+      "stock": 1888,
+      "lastStock": 2261,
       "lastRestock": 1772655278,
       "refills": [
         1772587566,
@@ -2980,8 +2981,8 @@
       "lastCost": 20000
     },
     "Lion Plushie": {
-      "stock": 776,
-      "lastStock": 1015,
+      "stock": 0,
+      "lastStock": 776,
       "lastRestock": 1772655278,
       "refills": [
         1772643348,
@@ -2997,7 +2998,7 @@
     },
     "Knuckle Dusters": {
       "stock": 209,
-      "lastStock": 210,
+      "lastStock": 209,
       "lastRestock": 1772164841,
       "refills": [
         1772164841
@@ -3021,13 +3022,13 @@
     },
     "PCP": {
       "stock": 501,
-      "lastStock": 508,
+      "lastStock": 501,
       "lastRestock": null,
       "refills": [],
       "avgInterval": null,
-      "cost": 6506,
-      "costDiff": -3,
-      "lastCost": 6509
+      "cost": 6500,
+      "costDiff": -6,
+      "lastCost": 6506
     },
     "LSD": {
       "stock": 291,
@@ -3037,8 +3038,8 @@
         1772233016
       ],
       "avgInterval": null,
-      "cost": 19729,
-      "costDiff": 0,
+      "cost": 19771,
+      "costDiff": 42,
       "lastCost": 19729
     },
     "Xanax": {
@@ -3053,8 +3054,8 @@
         1772643348
       ],
       "avgInterval": 16681,
-      "cost": 762967,
-      "costDiff": 0,
+      "cost": 765040,
+      "costDiff": 2073,
       "lastCost": 762967
     },
     "Combat Helmet": {
@@ -3123,15 +3124,15 @@
     },
     "Shrooms": {
       "stock": 428,
-      "lastStock": 429,
+      "lastStock": 428,
       "lastRestock": 1772278408,
       "refills": [
         1772278408
       ],
       "avgInterval": null,
-      "cost": 1039,
-      "costDiff": 2,
-      "lastCost": 1037
+      "cost": 1038,
+      "costDiff": -1,
+      "lastCost": 1039
     },
     "Vektor CR-21": {
       "stock": 62,
@@ -3160,13 +3161,13 @@
         1772565642
       ],
       "avgInterval": 120963,
-      "cost": 117570,
-      "costDiff": -178,
-      "lastCost": 117748
+      "cost": 117755,
+      "costDiff": 185,
+      "lastCost": 117570
     },
     "Uncut Diamonds": {
-      "stock": 2100,
-      "lastStock": 2119,
+      "stock": 2039,
+      "lastStock": 2100,
       "lastRestock": 1772648854,
       "refills": [
         1772295709,
@@ -3176,16 +3177,16 @@
         1772648854
       ],
       "avgInterval": 88286,
-      "cost": 198245,
-      "costDiff": 36,
-      "lastCost": 198209
+      "cost": 197918,
+      "costDiff": -327,
+      "lastCost": 198245
     }
   },
   "__meta": {
     "started": 1771789128,
-    "checks": 937,
-    "lastCheck": 1772656197,
-    "humanRuntime": "10d 51m",
-    "lastRun": 1772656197
+    "checks": 938,
+    "lastCheck": 1772657106,
+    "humanRuntime": "10d 1h 6m",
+    "lastRun": 1772657106
   }
 }
