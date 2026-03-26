@@ -1,0 +1,14 @@
+name: DB Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Torn endpoint
+        run: |
+          curl -I https://www.torn.com/ajax/travelAgency.php?step=getTravelTimes
+          curl https://www.torn.com/ajax/travelAgency.php?step=getTravelTimes
+
